@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --orange: #f2994a;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--orange);
+  padding-bottom: 10rem;
+}
+
+#header-bg {
+  height: 50vh;
+  background-image: url("../img/background.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header > a {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+}
+
+/** 
+    IDS 100
+    CLASES 10
+    CUALQUIER OTRO 1
+    
+*/
+
+#cow-catalog {
+  --orange: #934c0f;
+  padding: 2rem;
+}
+
+#cow-catalog h2 {
+  color: white;
+  font-size: 2.75rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.text-columns {
+  column-count: 2;
+  margin-bottom: 2rem;
+}
+
+.text-columns p {
+  margin-bottom: 1rem;
+}
+
+#cow-catalog ul {
+  display: flex;
+  gap: 1rem;
+}
+
+#cow-catalog ul li {
+  width: 33.3%;
+  background-color: black;
+  color: white;
+}
+
+#cow-catalog img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+#cow-catalog h3 {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  font-size: 2.75rem;
+}
+
+#cow-catalog li p {
+  padding: 0 1.5rem 3rem 1.5rem;
+}
+
+#cow-catalog a {
+  text-decoration: none;
+  background-color: #c4c4c4;
+  color: black;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+#contact {
+  padding: 2rem;
+  background-color: white;
+}
+
+#contact h2 {
+  color: var(--orange);
+  font-size: 2.75rem;
+  width: 70%;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+#contact label {
+  font-weight: bold;
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+  background-color: var(--orange);
+  padding: 0.5rem;
+  border: 1px solid black;
+  outline: none;
+}
+
+#contact label,
+#contact input,
+#contact textarea,
+#contact select {
+  margin-bottom: 0.5rem;
+}
+
+#contact label[for="province"],
+#contact label[for="comments"] {
+  display: block;
+}
+
+#contact textarea {
+  display: block;
+  width: 100%;
+}
+
+#contact button {
+  display: block;
+}
+
+#contact .field {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#contact .container {
+  display: flex;
+  gap: 1rem;
+}
+
+#contact button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  border: none;
+  margin-top: 1rem;
+}
